@@ -1,0 +1,67 @@
+@use "init";
+@use "variables" as v;
+
+.container {
+  color: white;
+  width: 100%;
+  max-width: 330px;
+  height: 586px;
+  background-color: v.$DarkGrey;
+  border-radius: 10px;
+  padding: 25px;
+
+  &__avatar-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+  &__avatar-image img {
+    border-radius: 50%;
+    width: 85px;
+  }
+  &__avatar-name {
+    margin-top: 32px;
+  }
+  &__avatar-country {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: v.$Green;
+    display: inline-block;
+  }
+
+  &__container__link {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 24px;
+  }
+  &__detail {
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+    margin-bottom: 26px;
+    line-height: 1.5rem;
+    letter-spacing: 0.01rem;
+  }
+  &__button {
+    width: 100%;
+    height: 44px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: v.$Grey;
+    color: v.$White;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: v.$Green;
+      color: v.$Black;
+      font-weight: 700;
+    }
+  }
+}

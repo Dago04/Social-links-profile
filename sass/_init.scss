@@ -1,0 +1,17 @@
+@use "variables" as v;
+/*Reseteo*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: v.$FontFamily;
+  background-color: v.$Black;
+  min-height: 800px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
