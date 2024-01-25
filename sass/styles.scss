@@ -4,7 +4,7 @@
 .container {
   color: white;
   width: 100%;
-  max-width: 330px;
+  max-width: 350px;
   height: 586px;
   background-color: v.$DarkGrey;
   border-radius: 10px;
@@ -32,11 +32,8 @@
     display: inline-block;
   }
 
-  &__container__link {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-bottom: 24px;
+  &__links {
+    margin-bottom: 28px;
   }
   &__detail {
     display: flex;
